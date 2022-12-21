@@ -8,7 +8,7 @@ public class Application {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
         //SpeakerService speakerService = new SpeakerServiceImpl();
         SpeakerService speakerService = applicationContext.getBean("speakerService", SpeakerService.class);
-        System.out.println("Spring Configuration Using JAVA Setter Injection");
+        System.out.println("Spring Configuration Using JAVA Constructor Injection");
         System.out.println(speakerService.findAll().get(0).getFirstName());
     }
 }

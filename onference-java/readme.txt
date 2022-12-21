@@ -17,7 +17,7 @@ public Customerervice getCustomerService() {
  return customerService;
 }
 ------
-Setter injection some warnings:
+Setter injection and Constructor injection implementaion had some warnings:
 /Users/venkat/pluralsight/workspace/onference-java/src/main/java/AppConfig.java
 Warning:(9, 14) Application context not configured for this file
 /Users/venkat/pluralsight/workspace/onference-java/pom.xml

@@ -11,6 +11,9 @@ public class SpeakerServiceImpl implements SpeakerService {
     //SpeakerRepository hibernateSpeakerRepository = new HibernateSpeakerRepositoryImpl();
     private SpeakerRepository speakerRepository;
 
+    public SpeakerServiceImpl(SpeakerRepository repository) {
+        speakerRepository = repository;
+    }
     @Override
     public List<Speaker> findAll() {
         return speakerRepository.findAll();
