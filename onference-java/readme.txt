@@ -4,7 +4,7 @@
 - adding @Configuration signifies, this file is for configuration purpose.
 
 - Spring beans defined by @Bean.
-- @Bean  at method level.
+- @Bean  at method level and singletons.
 
 
 -----
@@ -17,3 +17,10 @@ public Customerervice getCustomerService() {
  return customerService;
 }
 ------
+Setter injection some warnings:
+/Users/venkat/pluralsight/workspace/onference-java/src/main/java/AppConfig.java
+Warning:(9, 14) Application context not configured for this file
+/Users/venkat/pluralsight/workspace/onference-java/pom.xml
+Warning:(14, 22) Package 'org.springframework:spring-context' can be upgraded to version '6.0.2'
+
+----
