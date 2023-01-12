@@ -31,5 +31,10 @@ Define a class but use interface
 it can also have some properties that are related to Bean.
 ---
 
+Declare Beans in applicationContext.xml accordingly
+--
+As beans are defined in applicationContext.xml file now we should integrate this in the App
+so that it loads applicationcontext xml.
+
 
 
