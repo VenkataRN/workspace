@@ -8,10 +8,10 @@ import java.util.List;
 
 public class SpeakerServiceImpl implements SpeakerService {
 
-    SpeakerRepository hibernateSpeakerRepository = new HibernateSpeakerRepositoryImpl();
+    SpeakerRepository repository = new HibernateSpeakerRepositoryImpl();
 
-    @Override
+
     public List<Speaker> findAll() {
-        return hibernateSpeakerRepository.findAll();
+        return repository.findAll();
     }
 }
