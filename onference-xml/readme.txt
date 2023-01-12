@@ -35,6 +35,11 @@ Declare Beans in applicationContext.xml accordingly
 --
 As beans are defined in applicationContext.xml file now we should integrate this in the App
 so that it loads applicationcontext xml.
+--
+setterInjection: means using set functions
+many times this is good if you are using existing code
+--
+
 
 
 

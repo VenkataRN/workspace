@@ -9,6 +9,17 @@ public class SpeakerServiceImpl implements SpeakerService {
 
     SpeakerRepository repository ;
 
+    //The default constructor in this case is not really required.
+    //But incase if we are instantiating without arguments then this is required
+    public SpeakerServiceImpl() {
+    }
+
+    public SpeakerServiceImpl(SpeakerRepository repository) {
+        this.repository = repository;
+    }
+
+
+
     public List<Speaker> findAll() {
         return repository.findAll();
     }

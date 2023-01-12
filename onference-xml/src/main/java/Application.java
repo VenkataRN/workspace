@@ -12,7 +12,7 @@ public class Application {
 
         System.out.println("XML Based Spring Application");
         System.out.println("Now integrated with applicationContext.xml");
-        System.out.println("Used Setter Injection here");
+        System.out.println("Used Constructor Injection here");
 
         System.out.println(speakerService.findAll().get(0).getFirstName());
     }
