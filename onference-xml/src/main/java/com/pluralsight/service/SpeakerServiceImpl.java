@@ -26,6 +26,7 @@ public class SpeakerServiceImpl implements SpeakerService {
 
     //changed auto generated from setRepository to setSpeakerRepository to make auto-injection easy
     public void setSpeakerRepository(SpeakerRepository repository) {
+        System.out.println("Setter Injection");
         this.repository = repository;
     }
 

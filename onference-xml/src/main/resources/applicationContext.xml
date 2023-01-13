@@ -7,17 +7,9 @@
 
     <bean name="speakerRepository" class="com.pluralsight.repository.HibernateSpeakerRepositoryImpl"/>
 
-    <!--    Observe that name is simiilar to the class name-->
-    <bean name="speakerService" class="com.pluralsight.service.SpeakerServiceImpl">
-        <!--        Below we used ref because we are referring to other class (bean name which we used above).
-                    value will be used if we want to assign any hardcoded values like Strings-->
-        <!-- ref will be used and call the setter of speakerService with setSpeakerRepository function -->
-        <!--        <property name="speakerRepository"  ref="speakerRepository" /> commenting setter injection-->
-        <!-- if the setter function name is just setRepository
-        then above line:  bean property name would be just name="repository" to follow bean naming convention -->
-
-        <!-- Constructor injection - index based -->
-        <constructor-arg index="0" ref="speakerRepository"/>
+    <!--    Observe that name is similar to the class name-->
+    <bean name="speakerService" class="com.pluralsight.service.SpeakerServiceImpl" autowire="constructor">
 
     </bean>
+
 </beans>
