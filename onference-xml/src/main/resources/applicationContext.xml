@@ -8,7 +8,7 @@
     <bean name="speakerRepository" class="com.pluralsight.repository.HibernateSpeakerRepositoryImpl"/>
 
     <!--    Observe that name is similar to the class name-->
-    <bean name="speakerService" class="com.pluralsight.service.SpeakerServiceImpl" autowire="byType">
+    <bean name="speakerService" class="com.pluralsight.service.SpeakerServiceImpl" autowire="byName">
 
     </bean>
 

@@ -28,3 +28,10 @@
 4) XML using Setter injection
     <bean name="speakerService" class="com.pluralsight.service.SpeakerServiceImpl" autowire="byType">
     </bean>
+
+ 5)  XML Using Setter byName
+     - Please ensure that renaming the setter function name from setSpeakerRepository to setRepository
+       leads to Runtime Exception.
+     - Here no error because speakerRepository setter is named as setSpeakerRepository
+  <bean name="speakerService" class="com.pluralsight.service.SpeakerServiceImpl" autowire="byName">
+  </bean>
