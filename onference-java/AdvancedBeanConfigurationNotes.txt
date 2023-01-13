@@ -38,3 +38,27 @@ Will be done by using the " @Value" Annotation
 
 -----
 
+Spring AOP Proxies:
+Sprint utilizes Proxy.
+when -> when dealing with DB with @Transactional.
+--
+Bean Profiles:
+- Adapt to environments so that it can run only in specific environment
+- used for effective runtime configuration
+- Ex: @Profile("dev") - String can be anything but this will be used along with spring.profiles.active
+- After adding above info in appropriate class : To run Add -Dspring.profiles.active=dev in VM Options in run configuration
+- example Add profiles as below samples but did not test and run with -Dspring.profiles.active=dev in VM Options
+
+            @Profile("dev")
+            public class HibernateSpeakerRepositoryImpl implements SpeakerRepository {
+
+
+            }
+
+            and
+
+            @Profile("dev")
+            public class SpeakerServiceImpl implements SpeakerService {
+
+
+            }
