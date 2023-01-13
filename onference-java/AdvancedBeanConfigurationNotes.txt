@@ -26,3 +26,15 @@ Where you are using:
 Declare a Bean with that name and
 
 
+---
+SpEL (Spring Expression lanuage)
+used to Manipulated Object Graph after object is created
+can evaluate values in runtime
+can manipulate configuration
+This will be caliculated on RunTime and act based on the implementation.
+Typical use case is: Adding salt to passwords, manipulate the list on timely manner, etc.
+
+Will be done by using the " @Value" Annotation
+
+-----
+
