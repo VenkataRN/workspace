@@ -42,7 +42,7 @@ Spring AOP Proxies:
 Sprint utilizes Proxy.
 when -> when dealing with DB with @Transactional.
 --
-Bean Profiles:
+Bean Profiles: just explanation
 - Adapt to environments so that it can run only in specific environment
 - used for effective runtime configuration
 - Ex: @Profile("dev") - String can be anything but this will be used along with spring.profiles.active
