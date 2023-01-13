@@ -8,29 +8,3 @@ Constructor Injection:
 
 
 =======================
-
-1) XML using setter injection
-    <bean name="speakerService" class="com.pluralsight.service.SpeakerServiceImpl">
-        <!--        Below we used ref because we are referring to other class (bean name which we used above).
-                    value will be used if we want to assign any hardcoded values like Strings-->
-        <!-- ref will be used and call the setter of speakerService with setSpeakerRepository function -->
-        <!--        <property name="speakerRepository"  ref="speakerRepository" /> commenting setter injection-->
-        <!-- if the setter function name is just setRepository
-        then above line:  bean property name would be just name="repository" to follow bean naming convention -->
-
-        <!-- Constructor injection - index based -->
-        <constructor-arg index="0" ref="speakerRepository"/>
-
-    </bean>
-
-2) XML Using constructor injection
-
-   <bean name="speakerService" class="com.pluralsight.service.SpeakerServiceImpl">
-        <!-- Constructor injection - index based -->
-        <constructor-arg index="0" ref="speakerRepository"/>
-
-    </bean>
-
-3) XML using autowire
-   <bean name="speakerService" class="com.pluralsight.service.SpeakerServiceImpl" autowire="constructor">
-    </bean>
