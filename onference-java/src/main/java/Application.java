@@ -8,7 +8,23 @@ public class Application {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
         //SpeakerService speakerService = new SpeakerServiceImpl();
         SpeakerService speakerService = applicationContext.getBean("speakerService", SpeakerService.class);
-        System.out.println("Spring Configuration Using JAVA Constructor Injection");
-        System.out.println(speakerService.findAll().get(0).getFirstName());
+        System.out.println("Bean address : " +speakerService);
+
+        System.out.println("Spring Configuration Observe PostConstruct is coming imediately after the constructor is called");
+        System.out.println( speakerService.findAll().get(0).getFirstName());
+
+        SpeakerService speakerService2 = applicationContext.getBean("speakerService", SpeakerService.class);
+        System.out.println("Bean address : " + speakerService2);
     }
 }
+
+
+/*
+
+Constrcutor injection
+Postconstrcut annotation initialize
+Bean address : com.pluralsight.service.SpeakerServiceImpl@47e2e487
+Spring Configuration Observe PostConstruct is coming imediately after the constructor is called
+Venkat
+Bean address : com.pluralsight.service.SpeakerServiceImpl@47e2e487
+ */
