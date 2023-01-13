@@ -1,0 +1,28 @@
+BeanPostProcessor
+FactoryBean
+SpEL (Spring Expresson Language)
+Proxies
+Profiles (Configurations based on environment)
+=======================
+
+Bean lifecylcle
+
+Intantiation -> Read properties -> sets BeanName -> BeanFactory Aware ->
+Pre-Initialization(BeanPostProcssors) -> InitializeBean -> initMethod -> Post Initialization (BeanPostProcessors)
+
+------
+PostConstruct annotation can be used to updaet bean immediately after bean constrcutor is created
+----
+
+FactoryBean:
+
+Builds on FactoryMethod design pattern
+Helps to use the Legacy code.
+How means: Extend FactoryBean interface for this legacy code and
+   add the functions if you want more functionality on top of that
+
+Where you are using:
+
+Declare a Bean with that name and
+
+

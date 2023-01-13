@@ -18,13 +18,15 @@ public class Application {
     }
 }
 
-
+////Not sure why Calendar cal()  functionis not called
 /*
 
+Creating  CalenderFactory calFactoryMethod
+Returning calender object
 Constrcutor injection
 Postconstrcut annotation initialize
-Bean address : com.pluralsight.service.SpeakerServiceImpl@47e2e487
+Bean address : com.pluralsight.service.SpeakerServiceImpl@229c6181
 Spring Configuration Observe PostConstruct is coming imediately after the constructor is called
+Cal : Sun Jan 15 23:28:48 GMT 2023
 Venkat
-Bean address : com.pluralsight.service.SpeakerServiceImpl@47e2e487
  */
