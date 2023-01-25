@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87e51c23-2847-446c-8ad6-e79edc70deed" name="Changes" comment="Bean Profiles -&gt; using @Profile (Updated only in notes)">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/model/Speaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/model/Speaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/model/Speaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/model/Speaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/repository/HibernateSpeakerRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/repository/HibernateSpeakerRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.16.jdk/Contents/Home/lib/src.zip!/jdk.jdi/com/sun/jdi/ShortType.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.16.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/WeakPairMap.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.16.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeMap.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.16.jdk/Contents/Home/lib/src.zip!/jdk.jdi/com/sun/jdi/ArrayReference.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="2KpwwmrOLMSvlxGPwaURfv8oWO1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="conference-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="cleanup">
+      <created>1673651785229</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673651785229</updated>
+    </task>
+    <task id="LOCAL-00002" summary="FactoryBean Usage">
+      <created>1673652823409</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673652823409</updated>
+    </task>
+    <task id="LOCAL-00003" summary="SpEL (Spring Expression Language) Usage with  @Value annotation">
+      <created>1673653551218</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673653551218</updated>
+    </task>
+    <task id="LOCAL-00004" summary="AOP -&gt; using @Profile (Updated only in notes)">
+      <created>1673654143343</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673654143343</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Bean Profiles -&gt; using @Profile (Updated only in notes)">
+      <created>1673654183354</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673654183354</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87e51c23-2847-446c-8ad6-e79edc70deed" name="Changes" comment="Bean Profiles -&gt; using @Profile (Updated only in notes)" />
+      <created>1674685081884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674685081884</updated>
+      <workItem from="1674685081885" duration="853000" />
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cleanup" />
+    <MESSAGE value="FactoryBean Usage" />
+    <MESSAGE value="SpEL (Spring Expression Language) Usage with  @Value annotation" />
+    <MESSAGE value="AOP -&gt; using @Profile (Updated only in notes)" />
+    <MESSAGE value="Bean Profiles -&gt; using @Profile (Updated only in notes)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bean Profiles -&gt; using @Profile (Updated only in notes)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pluralsight/service/SpeakerServiceImpl.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

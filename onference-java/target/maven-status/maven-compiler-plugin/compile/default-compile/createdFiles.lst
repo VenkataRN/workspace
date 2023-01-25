@@ -3,5 +3,6 @@ com/pluralsight/model/Speaker.class
 com/pluralsight/service/SpeakerService.class
 com/pluralsight/repository/SpeakerRepository.class
 com/pluralsight/repository/HibernateSpeakerRepositoryImpl.class
+com/pluralsight/util/CalenderFactory.class
 Application.class
 com/pluralsight/service/SpeakerServiceImpl.class
