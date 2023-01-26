@@ -1,5 +1,6 @@
 package com.pluralsight.conferencedemo.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
@@ -34,6 +35,17 @@ public class Speaker {
     //Please observe that mappedBy is given speakers.
     // Because in Session.java the variable name is speakers
     @ManyToMany(mappedBy = "speakers")
+    //Below JsonIgnore is to fix Serialization Problem
+    //In Session.java we declared manytomany
+    //So, when we query all... then it tries
+    //get the session and list speakers..but each speaker again has session..
+    //so lists sessions...and so on.. will go to infinite
+
+    //To avoid we used @JsonIgnore
+    //Because Session.java has dominant side of bi-directional (means there main join is declared)
+    // so, here we are adding JsonIgnore
+    // This comes from Jackson.. it ignores while reload the session
+    @JsonIgnore
     private List<Session> sessions;
 
     public List<Session> getSessions() {
