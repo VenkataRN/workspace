@@ -20,6 +20,8 @@ public class Session {
     // about Spekers and configure a relation between Session and Speakers
 
     @ManyToMany
+    //name is the table name which is having the relation between Speakers and Session tables
+    //This table should be present already in the DB
     @JoinTable(
             name="session_speakers",
             joinColumns = @JoinColumn(name= "session_id"),
